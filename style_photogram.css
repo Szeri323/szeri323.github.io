@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Redressed:400,700);
+
+body {
+  margin: 0;
+}
+#main {
+  margin: 250px auto;
+  width: 350px;
+  height: 565px;
+}
+
+#signUp {
+  border: 2px solid rgba(0,0,0,0.1);
+}
+#header {
+  text-align: center;
+  font-family: 'Redressed', sans-serif;
+  font-size: 25px;
+}
+#loginIn {
+  margin: 15px 35px;
+}
+
+#loginIn input {
+  margin: 3px 0;
+  width: 268px;
+  height: 38px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 0 8px;
+}
+
+#loginIn button {
+  margin: 15px 0 0 0;
+  width: 275px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: lightblue;
+  border: none;
+  color: white;
+}
+
+#or {
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgba(0,0,0,0.5);
+}
+
+#fPassword {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#fPassword a {
+  text-decoration: none;
+}
+
+.margin {
+  margin: 15px;
+}
+
+.margin img {
+  margin: 0 10px 0 0;
+  border: solid 1px black;
+  width: 15px;
+  height: 15px;
+}
+
+.margin a {
+  color: #145AAB;
+}
+
+#small {
+  font-size: 13px;
+}
+
+#newAccount {
+  text-align: center;
+  border: 2px solid rgba(0,0,0,0.1);
+  margin: 15px 0;
+  padding: 6px;
+}
+
+#newAccount a {
+  text-decoration: none;
+  color: #238EC4;
+}
+
+#download {
+  text-align: center;
+}
+
+#download img {
+  width: 136px;
+  height: 44px;
+  margin-left: 5px;
+}
