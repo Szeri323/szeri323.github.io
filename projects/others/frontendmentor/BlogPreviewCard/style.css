@@ -12,9 +12,15 @@
     --Black: hsl(0, 0%, 7%);
 }
 
+
+
 body {
+    margin: 0;
     font-family: 'Figtree', sans-serif;
     background-color: var(--Yellow);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 
 .card {
