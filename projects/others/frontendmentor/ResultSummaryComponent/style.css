@@ -127,7 +127,7 @@ body {
   color: hsl(224, 30%, 27%);
   font-weight: bold;
 }
-.card .summary button {
+.card .summary .btn {
   background-color: hsl(224, 30%, 27%);
   width: 100%;
   max-width: 400px;
@@ -138,6 +138,9 @@ body {
   padding: 1em 0;
   border: none;
   margin-top: 1em;
+}
+.card .summary .btn:hover {
+  background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
 }
 
 @media (min-width: 992px) {
@@ -168,8 +171,5 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0 2em;
-  }
-  .card .summary .btn:hover {
-    background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
   }
 }/*# sourceMappingURL=style.css.map */

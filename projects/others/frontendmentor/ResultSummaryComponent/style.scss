@@ -108,6 +108,7 @@ body {
                 margin-bottom: 0.5em;
             }
         }
+
     }
 
     .summary {
@@ -179,7 +180,7 @@ body {
             }
         }
 
-        button {
+        .btn {
             background-color: $color-darkGrayBlue;
             width: 100%;
             max-width: 400px;
@@ -190,7 +191,12 @@ body {
             padding: 1em 0;
             border: none;
             margin-top: 1em;
+
+            &:hover {
+                background: linear-gradient(0deg, $colorGradinet-lightRoyalBlue, $colorGradinet-lightSlateBlue);
+            }
         }
+
     }
 
 }
@@ -229,10 +235,6 @@ body {
             justify-content: center;
             align-items: center;
             padding: 0 2em;
-
-            .btn:hover {
-                background: linear-gradient(0deg, $colorGradinet-lightRoyalBlue, $colorGradinet-lightSlateBlue);
-            }
         }
     }
 }
