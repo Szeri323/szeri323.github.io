@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FAQ Accordion</title>
+    <meta name="description" content="Frontend Mentor FAQ Accordion project">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -20,19 +21,19 @@
                 <h2>FAQs</h2>
             </div>
             <div class="list">
-                <button>
+                <div class="details" tabindex="1">
                     <summary>
-                        <span>What is Frontend Mentor, and how will it help me?</span><img class="summary__plus"
-                            src="./img/icon-plus.svg" alt="plus icon"><img class="summary__minus hidden"
+                        <span>What is Frontend Mentor, and how will it help me?</span><img class="summary__plus hidden"
+                            src="./img/icon-plus.svg" alt="plus icon"><img class="summary__minus"
                             src="./img/icon-minus.svg" alt="minus icon">
                     </summary>
-                    <p>Frontend Mentor offers realistic coding challenges to help developers
+                    <p class="showAnimation">Frontend Mentor offers realistic coding challenges to help developers
                         improve their frontend
                         coding
                         skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
                         portfolio building.</p>
-                </button>
-                <button>
+                </div>
+                <div class="details" tabindex="2">
                     <summary><span>Is Frontend Mentor free?</span><img class="summary__plus" src="./img/icon-plus.svg"
                             alt="plus icon"><img class="summary__minus hidden" src="./img/icon-minus.svg"
                             alt="minus icon"></summary>
@@ -41,8 +42,8 @@
                         skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal
                         for
                         portfolio building.</p>
-                </button>
-                <button>
+                </div>
+                <div class="details" tabindex="3">
                     <summary><span>Can I use Frontend Mentor projects in my portfolio?</span><img class="summary__plus"
                             src="./img/icon-plus.svg" alt="plus icon"><img class="summary__minus hidden"
                             src="./img/icon-minus.svg" alt="minus icon"></summary>
@@ -50,8 +51,8 @@
                         coding
                         skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
                         portfolio building.</p>
-                </button>
-                <button>
+                </div>
+                <div class="details" tabindex="4">
                     <summary><span>How can I get help if I'm stuck on a challenge?</span><img class="summary__plus"
                             src="./img/icon-plus.svg" alt="plus icon"><img class="summary__minus hidden"
                             src="./img/icon-minus.svg" alt="minus icon"></summary>
@@ -59,7 +60,7 @@
                         coding
                         skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
                         portfolio building.</p>
-                </button>
+                </div>
             </div>
         </div>
     </main>
