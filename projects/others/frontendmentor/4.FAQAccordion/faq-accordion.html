@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Accordion</title>
     <meta name="description" content="Frontend Mentor FAQ Accordion project">
+    <title>FAQ Accordion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -14,52 +14,64 @@
 </head>
 
 <body>
+
     <main class="main">
         <div class="card">
             <div class="header">
                 <img src="./img/icon-star.svg" alt="">
                 <h2>FAQs</h2>
             </div>
-            <div class="list">
-                <div class="details" tabindex="1">
-                    <summary>
-                        <span>What is Frontend Mentor, and how will it help me?</span><img class="summary__plus hidden"
-                            src="./img/icon-plus.svg" alt="plus icon"><img class="summary__minus"
-                            src="./img/icon-minus.svg" alt="minus icon">
-                    </summary>
-                    <p class="showAnimation">Frontend Mentor offers realistic coding challenges to help developers
+            <!-- Albo button i ::after icon albo divy-->
+            <div class="accordions">
+                <div class="accordions__item" tabindex="0">
+                    <div class="accordions__item-header">
+                        <h3 class="accordions__item-title">What is Frontend Mentor, and how will it help me?</h3>
+                        <img class="accordions__item-icon accordions__item-icon--plus hidden" src="./img/icon-plus.svg">
+                        <img class="accordions__item-icon accordions__item-icon--minus" src="./img/icon-minus.svg">
+                    </div>
+                    <p class="accordions__item-content showAnimation">Frontend Mentor offers realistic coding challenges
+                        to help developers
                         improve their frontend
                         coding
                         skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
                         portfolio building.</p>
                 </div>
-                <div class="details" tabindex="2">
-                    <summary><span>Is Frontend Mentor free?</span><img class="summary__plus" src="./img/icon-plus.svg"
-                            alt="plus icon"><img class="summary__minus hidden" src="./img/icon-minus.svg"
-                            alt="minus icon"></summary>
-                    <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend
-                        coding
-                        skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal
-                        for
-                        portfolio building.</p>
+                <div class="accordions__item" tabindex="0">
+                    <div class="accordions__item-header">
+                        <h3 class="accordions__item-title">Is Frontend Mentor free?</h3>
+                        <img class="accordions__item-icon accordions__item-icon--plus" src="./img/icon-plus.svg">
+                        <img class="accordions__item-icon accordions__item-icon--minus hidden"
+                            src="./img/icon-minus.svg">
+                    </div>
+                    <p class="accordions__item-content">The majority of our challenges are free, yes. We do have some
+                        that are premium and require a Pro
+                        subscription to access. It will say on each challenge whether they are free or premium, so it's
+                        easy to tell the difference.</p>
                 </div>
-                <div class="details" tabindex="3">
-                    <summary><span>Can I use Frontend Mentor projects in my portfolio?</span><img class="summary__plus"
-                            src="./img/icon-plus.svg" alt="plus icon"><img class="summary__minus hidden"
-                            src="./img/icon-minus.svg" alt="minus icon"></summary>
-                    <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend
-                        coding
-                        skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
-                        portfolio building.</p>
+                <div class="accordions__item" tabindex="0">
+                    <div class="accordions__item-header">
+                        <h3 class="accordions__item-title">Can I use Frontend Mentor projects in my portfolio?</h3>
+                        <img class="accordions__item-icon accordions__item-icon--plus" src="./img/icon-plus.svg">
+                        <img class="accordions__item-icon accordions__item-icon--minus hidden"
+                            src="./img/icon-minus.svg">
+                    </div>
+                    <p class="accordions__item-content">Definitely! Please do feel free to use whatever you build in
+                        your portfolio. Helping developers
+                        add professional-looking projects to their portfolio was one of the reasons we created this
+                        platform!</p>
                 </div>
-                <div class="details" tabindex="4">
-                    <summary><span>How can I get help if I'm stuck on a challenge?</span><img class="summary__plus"
-                            src="./img/icon-plus.svg" alt="plus icon"><img class="summary__minus hidden"
-                            src="./img/icon-minus.svg" alt="minus icon"></summary>
-                    <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend
-                        coding
-                        skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
-                        portfolio building.</p>
+                <div class="accordions__item" tabindex="0">
+                    <div class="accordions__item-header">
+                        <h3 class="accordions__item-title">How can I get help if I'm stuck on a challenge?</h3>
+                        <img class="accordions__item-icon accordions__item-icon--plus" src="./img/icon-plus.svg">
+                        <img class="accordions__item-icon accordions__item-icon--minus hidden"
+                            src="./img/icon-minus.svg">
+                    </div>
+                    <p class="accordions__item-content">The best (and quickest) way to get help on a challenge is in our
+                        Discord server. There are
+                        thousands of other developers in there, so it's a great place to ask questions. We even have a
+                        dedicated "help" channel! If you haven't joined yet, you can get an invite to our Discord server
+                        here.</p>
                 </div>
             </div>
         </div>
